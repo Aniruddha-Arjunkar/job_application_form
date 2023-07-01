@@ -10,8 +10,41 @@
         <div class="form_insec">
             <section class="name">
              <h1>JOB APPLICATION</h1>
-             <p>(WEB)</p>
-            </section>             
+             <p>( WEB )</p>
+            </section>
+            <section class="input_sec">
+              <label for="first-name">First Name</label> 
+              <label for="last-name" style="margin-left: 200px;">Last Name</label><br>
+              <input type="text" placeholder="Enter First Name...." id="first-name">
+              <input type="text" placeholder="Enter Last Name...." id="last-name" style="margin-left: 25px;">
+              <br><br>
+              <label for="email">Email</label>
+              <label for="job-role" style="margin-left: 239px;">Job Role</label><br>
+              <input type="email" placeholder="Enter Email...." id="email"> 
+              <select id="job-role" style="margin-left: 25px;">
+                <option>Select Job Role</option>
+                <option>Frontend Developer</option>
+                <option>Backend Developer</option>
+                <option>Full stack Devloper</option>
+                <option>UI UX Designer</option>
+              </select>
+              <br><br>
+              <label for="address">Enter Address</label> <br>
+              <textarea id="address" cols="71" rows="5" placeholder="Enter Address...."></textarea>
+              <br><br>
+              <label for="city">City</label>
+              <label for="pincode" style="margin-left: 252px;">Pincode</label><br>
+              <input type="text" id="city" placeholder="Enter City....">
+              <input type="number" id="pincode" style="margin-left: 24px;" placeholder="Enter Pincode....">
+              <br><br>
+              <label for="start-Date">Start-Date</label>
+              <label for="CV" style="margin-left: 207px;">Upload Your CV</label><br>
+              <input id="start-Date" type="date">
+              <input type="file" accept="application/*" style="margin-left: 26px;">
+            </section> 
+            <footer>
+                <button>Apply Now</button>
+            </footer>            
         </div>
     </div>
     </form>

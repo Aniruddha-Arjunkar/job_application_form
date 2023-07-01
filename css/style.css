@@ -1,27 +1,24 @@
 body{
-    background-color: rgb(118, 216, 216);
+    background-color:#999999;
     margin:0;
 }
 
 .form_outsec{
-    border:2px solid black;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 120px;
-    height: 500px;
-    width: 500px;
+    margin-top: 80px;
+    height: 540px;
+    width: 580px;
     background-color: white;
     padding: 10px;
     border-radius: 4px;
 }
 
 .form_insec{
-    border:2px solid black;
-    height:485px;
+    height:520px;
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 4px;
-    display: flex;
     padding:5px;
 }
 
@@ -40,3 +37,66 @@ body{
     margin-top: 40px;
     margin-left: 5px;
 }
+
+.input_sec{
+
+}
+
+option{
+    background-color:#3d3d3a;
+     color: white;
+}
+
+.input_sec label{
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.input_sec input{
+    width: 250px;
+    padding: 2px;
+    padding-left: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.input_sec textarea:hover,input:hover,select:hover{
+    border:2px solid rgb(214, 29, 29);
+}
+
+textarea{
+    padding: 9px;
+}
+
+select{
+    height: 23px;
+    width: 257px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+footer{
+margin-top: 30px;
+display: flex;
+flex-direction: column;
+align-items: end;
+margin-right: 15px;
+}
+
+button{
+    background-color: rgb(255, 49, 49);
+    color: white;
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}
+
+button:hover{
+    height: 33px;
+    width: 110px;
+    box-shadow: 2px 2px 5px 3px #999999;
+}
+
