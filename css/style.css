@@ -31,7 +31,8 @@ body{
 .name h1{
  font-size: 32px;
  font-weight: 800;
- font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ text-shadow: 5px 5px 4px #dfdede;
 }
 
 .name p{
@@ -76,6 +77,7 @@ select{
     border: 1px solid black;
     border: 2px solid #ccc;
     border-radius: 3px;
+    padding: 3px;
     box-shadow: 4px 3px 5px 2px #d4d2d2 ;
 }
     
