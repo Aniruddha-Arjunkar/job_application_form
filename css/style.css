@@ -7,11 +7,12 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 80px;
-    height: 540px;
+    height: 560px;
     width: 580px;
     background-color: white;
     padding: 10px;
     border-radius: 4px;
+    box-shadow: 4px 3px 10px 4px ;
 }
 
 .form_insec{
@@ -38,10 +39,6 @@ body{
     margin-left: 5px;
 }
 
-.input_sec{
-
-}
-
 option{
     background-color:#3d3d3a;
      color: white;
@@ -54,10 +51,13 @@ option{
 
 .input_sec input{
     width: 250px;
+    height: 24px;
     padding: 2px;
     padding-left: 5px;
-    border: 1px solid black;
-    border-radius: 3px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 4px 3px 5px 2px #d4d2d2 ;
+    margin-top: 3px;
 }
 
 .input_sec textarea:hover,input:hover,select:hover{
@@ -66,14 +66,19 @@ option{
 
 textarea{
     padding: 9px;
+    border: 2px solid #ccc;
+    box-shadow: 4px 3px 5px 2px #d4d2d2 ;
 }
 
 select{
-    height: 23px;
+    height: 28px;
     width: 257px;
     border: 1px solid black;
+    border: 2px solid #ccc;
     border-radius: 3px;
+    box-shadow: 4px 3px 5px 2px #d4d2d2 ;
 }
+    
 
 footer{
 margin-top: 30px;
@@ -92,11 +97,15 @@ button{
     border-radius: 5px;
     border: none;
     text-align: center;
+    border: 3px transparent;
 }
 
 button:hover{
-    height: 33px;
-    width: 110px;
-    box-shadow: 2px 2px 5px 3px #999999;
+    height: 32px;
+    width: 105px;
+    border: 3px solid  rgb(255, 49, 49);
+    background-color: #e3dede;
+    color: #3d3d3a;
+    font-weight: bold;
 }
 
